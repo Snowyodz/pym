@@ -53,6 +53,9 @@ def Pass():
 
 def Len(body):
     print(len(body))
+
+def Raise(type,body):
+    raise type(body)
 #############################################
 #DO FUNCTIONS
 #############################################
@@ -105,6 +108,10 @@ def doPass():
 def doLen():
     listt = [1,2,3,4,5,6,7,8,9,10,11,12]
     Len(listt)
+
+def doRaise():
+    if 10 < 100:
+        Raise(ValueError,"100 is greater than 10.")
 #############################################
 #CALL THEM OWO UWU
 #############################################
@@ -120,4 +127,5 @@ def doLen():
 #doReturn()
 #doPass()
 #doLen()
+#doRaise()
 
