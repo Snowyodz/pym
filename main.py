@@ -56,6 +56,9 @@ def Len(body):
 
 def Raise(type,body):
     raise type(body)
+
+def Exit():
+    exit()
 #############################################
 #DO FUNCTIONS
 #############################################
@@ -111,7 +114,15 @@ def doLen():
 
 def doRaise():
     if 10 < 100:
-        Raise(ValueError,"100 is greater than 10.")
+        Raise(TypeError,"100 is greater than 10.")
+
+def doExit():
+    count = 0
+    while True:
+        print("YAY")
+        count += 1
+        if count == 10:
+            Exit()
 #############################################
 #CALL THEM OWO UWU
 #############################################
@@ -128,4 +139,6 @@ def doRaise():
 #doPass()
 #doLen()
 #doRaise()
+#doBreak()
+#doExit()
 
