@@ -1,0 +1,21 @@
+DONE
+
+1) if
+2) else
+3) elif
+4) while
+5) for
+6) print
+7) exec
+8) Sum
+9) Diff
+10) Multiply
+11) Divide
+12) return
+13) pass
+14) len
+
+
+TODO
+
+
