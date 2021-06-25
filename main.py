@@ -76,7 +76,7 @@ def doIf():
 
 def doFor():
     list = [1,2,3,4 , "hi"]
-    For("" , list , """print("hi")""")
+    For("i" , list , """print("hi")""")
 
 def doPrint():
     b = "Fry"
