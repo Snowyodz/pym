@@ -59,6 +59,11 @@ def Raise(type,body):
 
 def Exit():
     exit()
+
+def Dict(*args, **kwargs):
+    return Return(dict(*args, **kwargs))
+
+
 #############################################
 #DO FUNCTIONS
 #############################################
@@ -123,6 +128,10 @@ def doExit():
         count += 1
         if count == 10:
             Exit()
+
+def MakeDict():
+    return Return(Dict())
+
 #############################################
 #CALL THEM OWO UWU
 #############################################
@@ -141,4 +150,4 @@ def doExit():
 #doRaise()
 #doBreak()
 #doExit()
-
+#MakeDict()
